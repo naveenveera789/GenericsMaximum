@@ -19,7 +19,7 @@ namespace GenericsMaximum
                         int first = Convert.ToInt32(Console.ReadLine());
                         int second = Convert.ToInt32(Console.ReadLine());
                         int third = Convert.ToInt32(Console.ReadLine());
-                        int result = MaximumInteger.FindMax(first, second, third);
+                        int result = MaximumComputation.FindMax(first, second, third);
                         Console.WriteLine("The Maximum Number is : " + result);
                         break;
                     case 2:
