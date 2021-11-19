@@ -38,11 +38,11 @@ namespace GenericsMaximum
         }
         public static string FindMax(string firstWord, string secondWord, string thirdWord)
         {
-            if (firstWord.Length > secondWord.Length && firstWord.Length > thirdWord.Length)
+            if (firstWord.CompareTo(secondWord)>0 && firstWord.CompareTo(thirdWord)>0)
             {
                 return firstWord;
             }
-            if (secondWord.Length > firstWord.Length && secondWord.Length > thirdWord.Length)
+            if (secondWord.CompareTo(firstWord)>0 && secondWord.CompareTo(thirdWord)>0)
             {
                 return secondWord;
             }
